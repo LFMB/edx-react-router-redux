@@ -1,0 +1,49 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+redux-test-app/node_modules
+redux-test-app/.pnp
+redux-test-app/.pnp.js
+
+# testing
+redux-test-app/coverage
+
+# production
+redux-test-app/build
+
+# misc
+redux-test-app/.DS_Store
+redux-test-app/.env.local
+redux-test-app/.env.development.local
+redux-test-app/.env.test.local
+redux-test-app/.env.production.local
+
+redux-test-app/npm-debug.log*
+redux-test-app/yarn-debug.log*
+redux-test-app/yarn-error.log*
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+test-app/node_modules
+test-app/.pnp
+test-app/.pnp.js
+
+# testing
+test-app/coverage
+
+# production
+test-app/build
+
+# misc
+test-app/.DS_Store
+test-app/.env.local
+test-app/.env.development.local
+test-app/.env.test.local
+test-app/.env.production.local
+
+test-app/npm-debug.log*
+test-app/yarn-debug.log*
+test-app/yarn-error.log*
