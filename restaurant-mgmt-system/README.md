@@ -1,3 +1,3 @@
 # Next Step:
 
-create the tableData.js in the reducers folder
+finished coding out index.js
