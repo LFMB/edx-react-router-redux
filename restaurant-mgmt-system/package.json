@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "a test redux-react app for an edx.org course that handles the logic of managing the portfolio tables for a restaurant'",
   "main": "src/index.js",
-  "scripts": {    
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=json",
-    "eject": "react-scripts eject",
+    "eject": "react-scripts eject"
   },
   "keywords": [
     "redux-react",
@@ -24,5 +24,17 @@
     "react-dom": "^16.8.6",
     "react-scripts": "^3.0.1",
     "redux": "^4.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
