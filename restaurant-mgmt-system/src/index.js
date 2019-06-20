@@ -12,6 +12,35 @@ import toggleTable from "./actions/toggleTable.js";
 
 var store = createStore(reducer);
 
+const getSelectedTable = () => {
+	var state = store.getState();
+	return state.selectedTable;
+};
+
+const getAvailableTables = () => {
+	var state = store.getState();
+	var tablesAvailable = 0;
+
+	for(let i = 0; i < state.tableStatusData.length; i++) {
+		if(state.tableStatusData[i] === true) tableStatusData++;
+	}
+	return tablesAvailable;
+};
+
+const getTableStatusData = () => {
+	var state = store.getState();
+	return state.tableStatusData;
+};
+
+const getTableItems = () => {
+	var state = store.getState();
+	// need to finish this
+	/*
+		./src/index.js
+  		Line 25:  'tableStatusData' is not defined  no-undef
+	*/
+}
+
 
 function App() {
   return (
