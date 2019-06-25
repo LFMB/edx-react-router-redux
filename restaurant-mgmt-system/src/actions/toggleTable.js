@@ -1,11 +1,11 @@
 import { TOGGLE_TABLE } from "../constants/constants.js";
 
 const toggleTable = id => {
-	return {
-		type: TOGGLE_TABLE,
-		id: id,
-	}
-}
+  return {
+    type: TOGGLE_TABLE,
+    id: id
+  };
+};
 
 /*
 The toggleTable action creator will create a TOGGLE_TABLE action 

@@ -1,26 +1,26 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-redux-test-app/node_modules
-redux-test-app/.pnp
-redux-test-app/.pnp.js
+restaurant-mgmt-system/node_modules
+restaurant-mgmt-system/.pnp
+restaurant-mgmt-system/.pnp.js
 
 # testing
-redux-test-app/coverage
+restaurant-mgmt-system/coverage
 
 # production
-redux-test-app/build
+restaurant-mgmt-system/build
 
 # misc
-redux-test-app/.DS_Store
-redux-test-app/.env.local
-redux-test-app/.env.development.local
-redux-test-app/.env.test.local
-redux-test-app/.env.production.local
+restaurant-mgmt-system/.DS_Store
+restaurant-mgmt-system/.env.local
+restaurant-mgmt-system/.env.development.local
+restaurant-mgmt-system/.env.test.local
+restaurant-mgmt-system/.env.production.local
 
-redux-test-app/npm-debug.log*
-redux-test-app/yarn-debug.log*
-redux-test-app/yarn-error.log*
+restaurant-mgmt-system/npm-debug.log*
+restaurant-mgmt-system/yarn-debug.log*
+restaurant-mgmt-system/yarn-error.log*
 
 
 

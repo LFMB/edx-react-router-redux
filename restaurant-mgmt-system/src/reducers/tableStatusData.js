@@ -1,12 +1,8 @@
 import { TOGGLE_TABLE } from '../constants/constants.js';
 
-var initialTableData = [];
+var initialTableStatusData = new Array(16).fill(false);
 
-for (let i = 0; i < 16; i++){
-	initialTableData.push([]);
-}
-
-const tableStatusData = (state = initialTableData, action) => {
+const tableStatusData = (state = initialTableStatusData, action) => {
 	switch (action.type) {
 		case TOGGLE_TABLE:
 			var stateCopy = state.slice();
